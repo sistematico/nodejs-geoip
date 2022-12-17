@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-geoip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "prod": "NODE_ENV=production node app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "geoip"
+  ],
+  "author": "Lucas Salies Brum <sistematico@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@supercharge/request-ip": "^1.2.0",
+    "fastify": "^4.10.2",
+    "geoip-lite": "^1.4.6"
+  }
+}
